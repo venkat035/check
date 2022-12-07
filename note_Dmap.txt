@@ -1,0 +1,481 @@
+life cycle
+assesment
+overview
+data migration
+schema conversion
+license DMA
+
+
+
+Pro has these funtions:-
+Getting started with migration
+Analytics Dashboard
+Work Node Setup
+Existing Migrations
+
+mvn archetype:generate -DgroupId=com.facingissuesonit.app -DartifactId=TestMavenWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+java -jar target/springboot-first-app-0.0.1-SNAPSHOT.jar
+
+java -cp target/springboot-first-app-0.0.1-SNAPSHOT.jar com.springboot.first.app.SpringbootFirstAppApplication
+
+ -- Run tests with mvn test 
+ -- Build project with mvn package command
+ mvn install
+ mvn clean package
+ 
+ -- Run App.java using that JAR file
+ 
+ "C:\Program Files\Java\jdk-18.0.2.1\bin\javac" C:\Users\Admin\OneDrive\Documents\codetest\src\codetest\*.java -d classes
+ 
+ "C:\Program Files\Java\jdk-17.0.4.1\bin\javac" C:\Users\Admin\OneDrive\Documents\codetest\src\codetest\ *.java -d classes
+  "C:\Program Files\Java\jdk-18.0.2.1\bin\javac" C:\jre_upgrade\DeprecateCheck\src\test*.java -d classes
+ "C:\Program Files\Java\jdk-18.0.2.1\bin\javac" -cp classes test.Main
+ src/test/*
+C:\jre_upgrade\Atel\IPFMComponent\src\th\co\ais\ipfm\dao
+
+jenkins
+69f222e1a3c049258152d08a9eb8aaf1
+
+netstat -ano | findstr :8086
+taskkill /PID 2148 /F
+http://localhost:8080/DMAP/#/login
+
+javac DeprecatedDemo.java > C:\filename.txt 2>&1
+clean install
+<packaging>war</packaging>
+
+C:\App_Remediation\Project_Uploads\DeprecateCheck\src\test>javac DeprecatedDemo.java > C:\Users\Admin\Downloads\filename.txt 2>&1
+
+javac -Xlint:unchecked *.java
+javac.exe -deprecation
+ID : boonyakn
+password : 123
+
+license key : 
+DMAP - C3CFEF-214A1A-4762BA-1D86A9-8C7DEC-BCA6D4
+DMAP Pro - CDC841-2EAD18-466C9D-2E5389-DCC14F-9E1C5C
+DMAP Enterprise - 1D71A7-73E55D-4D42A2-885416-27D027-BD1866
+
+TestForSourceAndTarget 
+
+javac -source 1.8 -target 1.9 TestForSourceAndTarget.java
+Done local setup for Dmap 
+
+javac C:\Users\Admin\Downloads\Daily Folders\290922\DeprecateCheck\src\test DeprecatedDemo.java 
+javac -cp ../ DeprecatedDemo.java
+
+javac -cp ../ DeprecatedDemo.java
+
+javac C:\App_Remediation\Project_Uploads\IPFMExternalService\src ../ *.java 
+
+EXC CVFG67JNMK09/,.;''
+C:\Users\Admin\AppData\Local\Programs\Python\Python39\python.exe
+|
+
+
+Dmap Folder was Angular --UI for both
+
+Dmap BackEnd for Python Code -- Working as backend
+
+Dmap Extenstion Flask python
+
+[INFO] Installing C:\jre_upgrade\spring-boot-h2-database-crud-master\target\spring-boot-jpa
+-h2-0.0.1-SNAPSHOT.jar to C:\Users\Admin\.m2\repository\com\bezkoder\spring-boot-jpa-h2\0.0.1-SNAPSHOT\spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\jre_upgrade\spring-boot-h2-database-crud-master\pom.xml to C:\Users\Admin\.m2\repository\com\bezkoder\spring-boot-jpa-h2\0.0.1-SNAPSHOT\spring-boot-jpa-h2-0.0.1-SNAPSHOT.pom
+ git clone --single-branch -b feature/dmap-extension https://github.com/newtglobalgit/DMAP_Backend.git
+javac C:\jre_upgrade\DeprecateCheck\src\test\ DeprecatedDemo.java
+
+cd C:\jre_upgrade\DeprecateCheck\src\test
+javac DeprecatedDemo.java 
+javac C:\jre_upgrade\DeprecateCheck\src\test . DeprecatedDemo.java 
+javac *.java
+javac Filedata.java ReadFile.java
+
+ create 3 containers --docker
+ 
+ with java 8 , 11 ,17
+ 
+  write a java code run the java file 
+  import the folder
+  
+  copy the containers
+  one by one 
+  
+  java compile collect errors 
+  sucess & fail
+  
+  isolate the errors take the runtime 
+   display
+   
+   
+   
+   Dmapp-- common UI for both DMAP & Extension 
+   DmapBackend --Devloper Branch 
+   Dmap Extesion --BAckend develop branch
+   dmap flask for report and jre 
+   
+   
+   Regarding Jre update 
+   
+   based on the UI flow requirement, instead of excel export --??
+   i am exporting the errors and finding's on .json file
+   based on the file, we can upload it on frontend with user 
+   later we download it pdf & excel -->> for pdf excel i was checked the UI, Need to do modifactions on backend
+   and for existing data 
+   fields  
+   
+   
+   we need to add 2 more fields:-
+   a) How many files got scanned  --Done
+   b) In how many files warning got found --Done 
+   
+   Filter the empty Warnings records only using backend --added filter condition
+   
+   
+   
+   
+   
+   facing issues on while running on local environment --removed the existing code fetched the latest branch 
+   Dmap_BackEnd --Developer branch 
+   Dmap-Extension-Flask --DE-241 
+   
+   
+   
+   Covered cretaed 2 new fields as requested
+   currently it was scanning the java files
+   it was getting the warning's
+   
+   it was filtering the no warings files using java 
+   exporting the json file ion requested format
+   
+   git push --set-upstream origin DE-223
+   
+   need to cover the UI tommorow
+   need to up the context export it to pdf and excel with existing report 
+   
+   git commit -m "Jre Updgradation Chnages" GeneratePDF.py Service.py ServiceImplementor.py
+   downloadJreExcel
+   
+   git reset --hard origin/DE-241
+   
+   git log to find the logs 
+   
+   git status --to know the branch 
+   git push origin DE-223
+   git status
+   git checkout -b feature/dmap_extension
+   git log
+   git pull
+   git status
+   app pswd
+   frqncvvtltvwrhtr
+   
+   shift the branch 
+   Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/Dmap_Extension/DMAP_Extension-Backend (develop)
+$ git checkout -b DE-223
+Switched to a new branch 'DE-223'
+
+Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/Dmap_Extension/DMAP_Extension-Backend (DE-223)
+$ git status
+On branch DE-223
+nothing to commit, working tree clean
+
+
+push the branch changes 
+
+Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/Dmap_Extension/DMAP_Extension-Backend (DE-223)
+$ git push origin DE-223
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (12/12), 2.86 KiB | 244.00 KiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/newtglobalgit/DMAP_Extension-Backend.git
+   9785c9c..11190df  DE-223 -> DE-223
+
+
+check the latest update 
+
+Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/DMAPP/DMAPP (DE-241-enhancements)
+$ git reset --hard origin/DE-241-enhancements
+HEAD is now at d32d85a JRE Upgradation UI enhancements-- download pdf/excel
+
+   
+   DE-241 branch for DMAPP for front end new changes 
+   DE-241 branch for Dmap_Extension_Flask for report changes 
+   Dmap_Backend --Developer 
+   
+   Dmap_Extension_Backend --develop branch 
+   git checkout -b DE-223
+Switched to a new branch 'DE-223'
+git pull
+   
+Flask : DE-241 
+Frontend : DE-241 --
+Java backend : develop 
+
+You can make your branches from these branches
+
+
+
+Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/Dmap_Extension/DMAP_Extension-Flask (DE-241)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 5 (delta 4), reused 5 (delta 4), pack-reused 0
+Unpacking objects: 100% (5/5), 594 bytes | 11.00 KiB/s, done.
+From https://github.com/newtglobalgit/DMAP_Extension-Flask
+   12c8ba0..cbf594e  DE-241     -> origin/DE-241
+Updating 12c8ba0..cbf594e
+Fast-forward
+ ServiceImplementor.py    | 25 +++++++++++++------------
+ templates/pdfreport.html |  6 +++++-
+ 2 files changed, 18 insertions(+), 13 deletions(-)
+
+Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/Dmap_Extension/DMAP_Extension-Flask (DE-241)
+$ git checkout -b DE-223
+Switched to a new branch 'DE-223'
+
+Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/Dmap_Extension/DMAP_Extension-Flask (DE-223)
+$ ^C
+
+Admin@DESKTOP-HKBRRDE MINGW64 /c/Source Code/GitHub/DMAP_Backend/Dmap_Extension/DMAP_Extension-Flask (DE-223)
+$
+
+
+
+
+git init // to initilize the directory
+git status 
+git add file1 file2
+git remote add origin 223 --wrong
+git add*
+git add.
+git commit -m "first commit"
+git log for log status
+git log --oneline
+git push -u orign DE-223
+
+----------------------------------------
+git status 
+git add file1 file2
+git commit -m "first commit"
+git push -u orign DE-223
+
+---------------------------------
+git clone httlps://urlrepo
+change file <vim> file.txt
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Set up rich prime faces
+
+
+we can up first the context using documentation
+later we can check for rich phase will work on other files 
+
+
+
+DF28D1-6E4785-4356B4-E1B10D-75CB9E-11DABE
+
+
+docker-compose build --no-cache
+docker-compose up -d
+
+
+ID : boonyakn
+password : 123
+
+
+
+
+
+
+DOcker:-
+
+
+as am example here I am sharing how to create a container ... But you can customize as per your need or convenience ...
+------------- generic command ------------
+•	Docker command to run: docker run -d -it -p {UI_PORT}:8080 -p {PYTHON_SERVICE_PORT}:5002 -e UI_PORT={UI_PORT} -e SERVICE_PORT={PYTHON_SERVICE_PORT} --name=dmap_azure_prod_7600_7401 ngdmapo/dmap_azure_blob_prod:v7.6.0.0
+
+-------------- one can use this command ---------
+docker run -d -it -p 5002:5002 -p 8080:8080 -p 5432:5432 -e UI_PORT=8080 -e SERVICE_PORT=5002 --name=DMAP_Azure_PRODBasic_7600_7401 ngdmapo/dmap_azure_blob_prod:v7.6.0.0
+
+
+
+
+Please use the DMAP licenses for Basic, Pro, Enterprise ...
+•	Basic - 38787B-BA5675-48D6BD-59D135-106D90-1FFB0F
+•	Pro - 1998A3-521D1D-4F43AA-DE917C-770FBC-D8CD4B
+•	Enterprise - DF28D1-6E4785-4356B4-E1B10D-75CB9E-11DABE   
+
+
+
+DMAP email setup details, Please note : 
+SMTP Host : smtp.office365.com
+SMTP Port : 587
+Email Recipients : <<Your Newt Global email id>>
+Sender Email Address : do-not-reply@newtglobalcorp.com
+Password : xvN82Va&VkaT
+
+
+
+Everyone please create container with DMAP Azure Prod Basic variant with  7.4.0.1; I am assuming you all already have create image of DMAP Azure Prod 7.0.0.0 ...
+
+
+Going forward whenever u get any task
+
+1st Step - understand the requirement (Never get dependent on anyone)
+2nd step - Do not start coding unless u understand the requirement
+3rd step - When the requirements are freezed make a design document (Having requirements, Goal, your approach) and get it review by Venkat (Product owner/manager)
+4th step - After u start your impl show your daily work to Venkat as a demo
+
+
+
+scoop bucket add snyk https://github.com/snyk/scoop-snyk
+scoop install snyk
+
+
+snyk auth
+
+snyk monitor
+
+
+
+Run snyk tool why we are doing these to get security vulnerbilties
+DE-264
+DE-263
+262,265
+
+
+done for UI snyk
+done for dmapp extension backend UI
+snyk supports gradle are maven only 
+If pom.xml have dependency means it will analyze & genarete reports are else no report
+doen for dmapextension backend
+
+
+
+
+
+Atel code not have any pom.xml & gradle file to check the vulnerbilties.
+
+
+
+
+Take DMAp extension setup 
+
+Go to DMAP
+
+Do the DEMO schema migration
+
+Complete the manual changes
+
+create assessment report
+
+Download latest SCT
+
+do the DB assessment
+
+DB conversion
+
+show the report
+
+Also do the IPFM Remediation as discussed in the call
+
+I meant IPFM Remediation using both SCT and DMAP extension
+
+
+spot  bugs & find bugs
+i hope spot bugs fecthing better security vulnerabitly issues better than other tools
+
+After you complete the task
+
+use this https://github.com/Scanner-One/Scanner-One
+
+
+
+
+C:\\Users\\Admin\\Downloads\\Daily Folders\\191022\\use\\AIS_EXAMPLE.java
+
+
+
+Hi Arpit,
+Related to Latest Changes for Jre for container time, Please help to merge latest changes
+I hope i was tested it was working fine flow 
+Dmap_extension_backennd -->>DE-255
+DMap_extension_flask -->>DE-255
+
+
+jira junit 
+junit
+container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interview with ValueLabs 12:30 PM
+https://valuelabs.zoom.us/j/98092248077
+Meeting ID: 980 9224 8077
+
+Accolite Digital 3pm to 4pm 
+https://meet.google.com/irp-iiwj-eqx
+
+DBS-TECH INTERVIEW
+November 23rd , 2022
+04:00 PM – 05:00 PM
+https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MDczZGIxMGUtNmFkZS00YWRkLWIxNTUtZjkyMmQyZTA0Y2Zm%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522278ad577-c008-4fc4-ad48-4467be94beb5%2522%252c%2522Oid%2522%253a%2522c35ffa9a-c86e-4ad5-85b3-bdbe9b92eb81%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=789d0774-c02e-47fd-9edb-263788205874&directDl=true&msLaunch=true&enableMobilePage=true
+Meeting ID: 487 788 316 563
+Passcode: sWH4z2
+
+Interview Scheduled for Java SDE and Sr. SDE at Tech Mahindra
+https://www.flocareer.com/flo2.0/interview/?req=20134&claim=985504
+Nov 23, 2022 @ 05:30 PM IST
+5:30pm – 6pm (IST)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
